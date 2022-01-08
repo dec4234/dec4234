@@ -12,3 +12,24 @@
 <p align="left"> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.rust-lang.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-plain.svg" alt="rust" width="40" height="40"/> </a> </p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=dec4234&show_icons=true&locale=en" alt="dec4234" /></p>
+
+# Projects
+
+## Java
+
+### [JavaDestinyAPI](https://github.com/dec4234/JavaDestinyAPI)
+An API wrapper written in Java for the Bungie platform API. Useful for developers looking to retrieve stats and other information about users and clans inside of the game Destiny 2. Supports clan management such as kicking, banning, promoting and inviting as well using OAuth.
+
+### [Benedict 2]()
+A Discord Bot using JDA and the JavaDestinyAPI to control my [Destiny 2 Clan](https://www.bungie.net/en/ClanV2?groupid=3074427). The bot supports several features related to clan management, most notably: Applications handled inside Discord, Discord role management and functionality to automatically detect people who leave. The bot has made it significantly easier to manage the clan as many tedious actions have been automated. I host it on a Raspberry Pi 4 8 GB at my house.
+
+MongoDB is utilized to store information about each user including both Discord and Bungie IDs, join and leave dates, and usernames. This allows me to have access to all of the information needed to manage clan members.
+
+### [Pit Core 3]()
+A Spigot plugin for the semi-private minecraft server I help develop. This is the biggest project relating to Minecraft server development that I have undertaken.
+
+The basic gameplay loop of the server relates around "Pits" where players can go to kill a lot of mobs in order to progress to the next highest pit. In order to be able to make this work, the plugin implements a custom mob spawning solution modeled off of Hypixel Skyblock's system. Whenever mobs are killed they are added to a list of dead mobs, then at a fixed interval all dead mobs are respawned. 
+
+Additionally, MongoDB is used to store player information such as kills, deaths, money (shekels) and a Base64 encoded private vault. A public scoreboard using armor stand holograms is used to display the top 5 mob killers on each day. A sidebar scoreboard solution has also been implemented, using a system that I developed.
+
+The server also utilizes command blocks built and managed by another user, Wildfire, to control the finer gameplay elements. The server is by no means amazing but it is a good game to play while at school.
