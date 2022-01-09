@@ -25,11 +25,21 @@ A Discord Bot using JDA and the JavaDestinyAPI to control my [Destiny 2 Clan](ht
 
 MongoDB is utilized to store information about each user including both Discord and Bungie IDs, join and leave dates, and usernames. This allows me to have access to all of the information needed to manage clan members.
 
+### [StreamAlerter](https://github.com/dec4234/StreamAlerter)
+StreamAlerter is a project I made to be able to detect when Youtubers start a live stream without using the Google API. Normally if you wanted to check for a Youtube livestream, you would have to use the Google API which is limited through quotas. This solution retrieves the web page using a channel ID and then checks for a specific link under a certain html tag. The only potential problem with this solution is bandwith usage, but it can mitigated by limiting the time between calls.
+
+## Spigot Plugins (Java)
+
 ### [Pit Core 3]()
-A Spigot plugin for the semi-private minecraft server I help develop. This is the biggest project relating to Minecraft server development that I have undertaken.
+The third iteration of a Spigot plugin for the semi-private minecraft server I help develop. This is the biggest project relating to Minecraft server development that I have undertaken.
 
 The basic gameplay loop of the server relates around "Pits" where players can go to kill a lot of mobs in order to progress to the next highest pit. In order to be able to make this work, the plugin implements a custom mob spawning solution modeled off of Hypixel Skyblock's system. Whenever mobs are killed they are added to a list of dead mobs, then at a fixed interval all dead mobs are respawned. 
 
 Additionally, MongoDB is used to store player information such as kills, deaths, money (shekels) and a Base64 encoded private vault. A public scoreboard using armor stand holograms is used to display the top 5 mob killers on each day. A sidebar scoreboard solution has also been implemented, using a system that I developed.
 
 The server also utilizes command blocks built and managed by another user, Wildfire, to control the finer gameplay elements. The server is by no means amazing but it is a good game to play while at school.
+
+### [DecsLoginSecurity2](https://github.com/dec4234/DecsLoginSecurity2)
+DecsLoginSecurity is an offline mode security solution for offline mode servers. This plugin is used on the "The Pit" which is the same server as above.
+
+All users are required to register a password and use it when logging in. Otherwise, any user with malicious intent could login under another player's name and wreak havoc.
