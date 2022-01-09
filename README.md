@@ -43,3 +43,6 @@ The server also utilizes command blocks built and managed by another user, Wildf
 DecsLoginSecurity is an offline mode security solution for offline mode servers. This plugin is used on the "The Pit" which is the same server as above.
 
 All users are required to register a password and use it when logging in. Otherwise, any user with malicious intent could login under another player's name and wreak havoc.
+
+### [DecsNPCs](https://github.com/dec4234/DecsNPCs)
+DecsNPCs is a simple solution for NPCs that I made for "The Pit" a while ago. DecsNPCs utilizes packets to spawn and manage NPCs. Functionality is limited however it provided invaluable experience for me in order to better understand packets. We eventually abandoned this project in favor of Citizens2.
