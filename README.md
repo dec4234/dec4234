@@ -46,3 +46,8 @@ All users are required to register a password and use it when logging in. Otherw
 
 ### [DecsNPCs](https://github.com/dec4234/DecsNPCs)
 DecsNPCs is a simple solution for NPCs that I made for "The Pit" a while ago. DecsNPCs utilizes packets to spawn and manage NPCs. Functionality is limited however it provided invaluable experience for me in order to better understand packets. We eventually abandoned this project in favor of Citizens2.
+
+## Rust Lang
+
+### [Endstone](https://github.com/dec4234/Endstone)
+An in-progress implementation of the Minecraft Server protocol in the programming language Rust. Not meant to be a replacement for regular Java servers for a long time.
