@@ -32,7 +32,7 @@ StreamAlerter is a project I made to be able to detect when Youtubers start a li
 
 ## Spigot Plugins (Java)
 
-### [Pit Core 3]()
+### [Pit Core 3](https://github.com/dec4234/PitCore3/)
 The third iteration of a Spigot plugin for the semi-private minecraft server I help develop. This is the biggest project relating to Minecraft server development that I have undertaken.
 
 The basic gameplay loop of the server relates around "Pits" where players can go to kill a lot of mobs in order to progress to the next highest pit. In order to be able to make this work, the plugin implements a custom mob spawning solution modeled off of Hypixel Skyblock's system. Whenever mobs are killed they are added to a list of dead mobs, then at a fixed interval all dead mobs are respawned. 
