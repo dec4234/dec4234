@@ -54,5 +54,8 @@ DecsNPCs is a simple solution for NPCs that I made for "The Pit" a while ago. De
 ### [Rustiny](https://github.com/dec4234/Rustiny)
 A project nearly identical to the [JavaDestinyAPI](https://github.com/dec4234/JavaDestinyAPI), except in Rust. Uses Serde and Reqwest to make requests to the Bungie.net API and easily parses all of the responses into pre-made structs. Uses tokio to perform async tests, which ensure that functionality for the API remains intact in-between each update. Uses chrono and a custom Zulu Time deserializer to parse time formats.
 
+### [DecCoin](https://github.com/dec4234/DecCoin)
+A proof of concept of a Proof-Of-Work CryptoCurrency written in Rust.
+
 ### [Endstone](https://github.com/dec4234/Endstone)
-An in-progress implementation of the Minecraft Server protocol in the programming language Rust. Not meant to be a replacement for regular Java servers for a long time.
+An implementation of a Minecraft: Java Edition Server in Rust. Supports the full login sequence up until chunk data is transferred to the client. Supports Server List ping handling.
