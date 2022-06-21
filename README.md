@@ -57,5 +57,13 @@ A project nearly identical to the [JavaDestinyAPI](https://github.com/dec4234/Ja
 ### [DecCoin](https://github.com/dec4234/DecCoin)
 A proof of concept of a Proof-Of-Work CryptoCurrency written in Rust.
 
+### [RND](https://github.com/dec4234/RND)
+A packet-based information transfer protocol. Supports serializing and deserializing structs to and from bytes and sending them to connected servers or clients.
+
 ### [Endstone](https://github.com/dec4234/Endstone)
 An implementation of a Minecraft: Java Edition Server in Rust. Supports the full login sequence up until chunk data is transferred to the client. Supports Server List ping handling.
+
+## C++
+
+### [List Implemenations](https://github.com/dec4234/List_Implementations)
+Implementations of various data structures in C++, including Linked Lists and Array Lists.
