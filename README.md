@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm dec</h1>
-<h3 align="center">An experienced backend developer</h3>
+<h3 align="center">Java, Rust and C++ Developer</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=dec4234&label=Profile%20views&color=0e75b6&style=flat" alt="dec4234" /> </p>
 
@@ -65,5 +65,5 @@ An implementation of a Minecraft: Java Edition Server in Rust. Supports the full
 
 ## C++
 
-### [List Implemenations](https://github.com/dec4234/List_Implementations)
+### [Data Structures](https://github.com/dec4234/Data_Structures)
 Implementations of various data structures in C++, including Linked Lists and Array Lists.
