@@ -12,7 +12,14 @@
   <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dec4234&layout=compact&theme=dark" alt="dec4234 Languages" />
 </div>
 
-<div style="clear: both;"></div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 # Projects
 
