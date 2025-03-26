@@ -1,14 +1,16 @@
 <h1 align="center">Hi 👋, I'm dec</h1>
 <h3 align="center">Java, Rust, and Python Developer</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=dec4234&label=Profile%20views&color=0e75b6&style=flat" alt="dec4234" /> </p>
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=dec4234&label=Profile%20views&color=0e75b6&style=flat" alt="dec4234" /> </p>
 
-<h3 align="left">Languages and Tools</h3>
+<h3 align="center">Languages and Tools</h3>
 <p align="left"> </p>
 
-<p>&nbsp;<img align="left" src="https://github-readme-stats.vercel.app/api?username=dec4234&show_icons=true&include_all_commits=true&count_private=true&theme=dark" alt="dec4234" /></p>
+<div style="display: flex; align-items: center; gap: 20px;">
+  <img align="left" src="https://github-readme-stats.vercel.app/api?username=dec4234&show_icons=true&include_all_commits=true&count_private=true&theme=dark" alt="dec4234" />
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dec4234&layout=compact" alt="dec4234 Languages" /></p>
+  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dec4234&layout=compact&theme=dark" alt="dec4234 Languages" />
+</div>
 
 # Projects
 
